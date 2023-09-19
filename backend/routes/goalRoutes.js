@@ -10,7 +10,7 @@ router.post('/', setGoal)
 
 router.put('/:id', updateGoal)
 
-router.get('/:id', deleteGoal)
+router.delete('/:id', deleteGoal)
 
 module.exports = router 
 
